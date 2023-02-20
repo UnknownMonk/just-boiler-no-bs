@@ -1,0 +1,27 @@
+{
+  "name": "just-boiler-no-bs",
+  "version": "1.0.0",
+  "description": "CLI tool to install templates",
+  "main": "index.js",
+  "scripts": {
+    "test": "t"
+  },
+  "repository": {
+    "type": "git",
+    "url": "just-boiler-no-bs"
+  },
+  "keywords": [
+    "template",
+    "cli"
+  ],
+  "author": "Jonas Walden",
+  "license": "ISC",
+  "homepage": "https://github.com/UnknownMonk/just-boiler-no-bs#readme",
+  "bin": "./index.js",
+  "dependencies": {
+    "args": "^5.0.3",
+    "chalk": "^5.0.1",
+    "degit": "^2.8.4",
+    "yargs-parser": "^21.1.1"
+  }
+}
