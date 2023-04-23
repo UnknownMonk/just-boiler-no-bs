@@ -1,14 +1,52 @@
 # just-boiler-no-bs
 
-create-express-api or a next.js project with typescript and tailwind just boiler.
-A CLI to automatically clone the Express API Starter or the
-next-typeScript-tailwind-boiler.
+`ust-boiler-no-bs` is an npm package that allows you to quickly create an Express.js API with TypeScript or a boilerplate set up for tailwind and Next.js with TypeScript. This package uses the `args`, `degit`, and `chalk` npm packages to create the API.
 
-Usage
-Create with JS:
+## Installation
 
-npx create-next-typeScript-tailwind-boiler -d name-of-app
-Create with Typescript:
+To use `ust-boiler-no-bs`, you must have Node.js and npm installed on your system. To install `ust-boiler-no-bs`, run the following command in your terminal:
 
-npx create-express-api -t -d name-of-app
-This will create a directory with the given name, clone the chosen repo into it, and install dependencies.
+```bash
+npm install -g ust-boiler-no-bs
+```
+
+## Usage
+
+To use `express-api-starter`, run the following command in your terminal:
+
+```bash
+create-express-api -t -d my-api
+```
+
+This will create an Express.js API with TypeScript in a directory called `my-api`. Alternatively, you can use the following command to create a boilerplate set up for tailwind and Next.js with TypeScript in a directory called `my-api`:
+
+```bash
+create-next-typeScript-tailwind-boiler -d my-api
+```
+
+## Options
+
+`express-api-starter` supports the following options:
+
+- `-t, --typescript`: Use the TypeScript template.
+- `-d, --directory`: The name of the directory to create.
+
+## Examples
+
+`express-api-starter` supports the following examples:
+
+```bash
+create-express-api -t -d my-api
+```
+
+This will create an Express.js API with TypeScript in a directory called `my-api`.
+
+```bash
+create-next-typeScript-tailwind-boiler -d my-api
+```
+
+This will create a boilerplate set up for tailwind and Next.js with TypeScript in a directory called `my-api`.
+
+## License
+
+This package is licensed under the MIT License.

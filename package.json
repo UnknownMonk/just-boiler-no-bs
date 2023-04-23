@@ -1,6 +1,6 @@
 {
   "name": "just-boiler-no-bs",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "CLI tool to install templates",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,10 @@
   "author": "Jonas Walden",
   "license": "ISC",
   "homepage": "https://github.com/UnknownMonk/just-boiler-no-bs#readme",
-  "bin": "./index.js",
+  "bin": {
+    "create-next-typeScript-tailwind-boiler": "index.js",
+    "create-express-api": "./index.js"
+  },
   "dependencies": {
     "args": "^5.0.3",
     "chalk": "^5.0.1",

@@ -22,6 +22,7 @@ args
 
 const flags = args.parse(process.argv, {
   name: "express-api-starter",
+  name: "create-next-typeScript-tailwind-boiler",
 });
 
 import("chalk").then(({ default: chalk }) => {
@@ -41,8 +42,8 @@ import("chalk").then(({ default: chalk }) => {
   }
 
   const repoName = flags.t
-    ? "UnknownMonk/next-typeScript-tailwind-boiler"
-    : "UnknownMonk/express-api-starter-ts";
+    ? "UnknownMonk/express-api-starter-ts"
+    : "UnknownMonk/create-next-typeScript-tailwind-boiler";
 
   const emitter = degit(repoName, {
     force: true,
