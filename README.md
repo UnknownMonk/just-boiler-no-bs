@@ -1,13 +1,13 @@
 # just-boiler-no-bs
 
-`ust-boiler-no-bs` is an npm package that allows you to quickly create an Express.js API with TypeScript or a boilerplate set up for tailwind and Next.js with TypeScript. This package uses the `args`, `degit`, and `chalk` npm packages to create the API.
+`just-boiler-no-bs` is an npm package that allows you to quickly create an Express.js API with TypeScript or a boilerplate set up for tailwind and Next.js with TypeScript. This package uses the `args`, `degit`, and `chalk` npm packages to create the API.
 
 ## Installation
 
-To use `ust-boiler-no-bs`, you must have Node.js and npm installed on your system. To install `ust-boiler-no-bs`, run the following command in your terminal:
+To use `just-boiler-no-bs`, you must have Node.js and npm installed on your system. To install `just-boiler-no-bs`, run the following command in your terminal:
 
 ```bash
-npm install -g ust-boiler-no-bs
+npm install -g just-boiler-no-bs
 ```
 
 ## Usage
